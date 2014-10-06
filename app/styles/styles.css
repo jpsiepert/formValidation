@@ -123,5 +123,21 @@ body {
 			margin-right: 5px;
 			cursor: pointer;
 		}
+.states-select{
+	display: inline-block;
+}
 
-	
+.ng-pristine {
+
+}
+.ng-dirty.form-control:focus {
+	border: 1px solid yellow;
+}
+.ng-valid.form-control:focus {
+	border: 1px solid green;
+}
+.ng-invalid.form-control:focus {
+	border: 1px solid red;
+
+}
+
